@@ -12,18 +12,25 @@ MAIN SECTION: SELECTING THE VIEW
 *******************************************************************/
 
 .main-container {
-  width: 90%;
+  width: 72%;
   margin: 0 auto;
 }
 
 main {
-  padding: 1em;
+  padding: 1.5em;
   border: .2em solid #47a3da;
 }
 
 .view-option {
   text-align: right;
+  padding: .8em 0 1.4em 0;
   border-bottom: .2em solid #47a3da;
+}
+
+.view-option a {
+  font-size: 1.8em;
+  padding: 0 .3em;
+  margin-right: 0;
 }
 
 .hide-grid {
@@ -52,8 +59,52 @@ BEGIN LIST LAYOUT
 ********************************************************************
 *******************************************************************/
 
-.move-me {
-  text-align: right;
+.wine-list-ul li {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  padding: 2em 0;
+}
+
+.bottle-icon {
+  width: 10%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.title {
+  width: 23%;
+  box-sizing: border-box;
+  font-size: 1.3em;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.price {
+  width: 10%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.3em;
+  color: #d0d0d0;
+}
+
+li p {
+  width: 35%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2em;
+}
+
+.add {
+  width: 10%;
+  color: #fff;
+  background: #47a3da;
+  display: inline-block;
+  padding: .75em 1.3em 1em 1.25em;
+  vertical-align: middle;
+  text-decoration: none;
 }
 
 /*******************************************************************

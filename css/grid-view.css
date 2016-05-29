@@ -17,13 +17,20 @@ MAIN SECTION: SELECTING THE VIEW
 }
 
 main {
-  padding: 1em;
+  padding: 1.5em;
   border: .2em solid #47a3da;
 }
 
 .view-option {
   text-align: right;
+  padding: .8em 0 1.4em 0;
   border-bottom: .2em solid #47a3da;
+}
+
+.view-option a {
+  font-size: 1.8em;
+  padding: 0 .3em;
+  margin-right: 0;
 }
 
 .hide-grid {
@@ -60,6 +67,39 @@ BEGIN GRID LAYOUT
   padding: 2em;
   display: inline-block;
   vertical-align: top;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 700;
+  margin: .4em .4em 0;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #c0c0c0;
+  margin: .85em 0;
+}
+
+li p {
+    margin-bottom: 3.25em;
+}
+
+.add {
+  text-decoration: none;
+  vertical-align: bottom;
+  color: #fff;
+  background:#47a3da;
+  padding: .75em 1.3em 1em 1.25em;
+}
+
+.add:hover {
+  background: #056fa8;
+}
+
+.fa-plus-circle {
+  box-sizing: border-box;
+  padding-right: .5em;
 }
 
 /*******************************************************************
