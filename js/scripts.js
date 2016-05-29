@@ -1,4 +1,5 @@
 var viewIcon = document.getElementsByClassName( "view-icon" );
+var style = document.getElementsByClassName( "current-stylesheet" );
 
 //loop through the array of view icons
 for( var index = 0; index < viewIcon.length; index++ ) {
@@ -12,6 +13,7 @@ for( var index = 0; index < viewIcon.length; index++ ) {
         this.classList.add( "view-grid" );
         this.nextElementSibling.classList.remove( "view-list" );
         this.nextElementSibling.classList.add( "hide-list" );
+        style[0].setAttribute( "href", "css/grid-view.css" );
         // this.style.color = "blue"; -- testing
         // this.nextElementSibling.style.color = "red"; -- testing
       } // end inner if
@@ -24,6 +26,7 @@ for( var index = 0; index < viewIcon.length; index++ ) {
         this.classList.add( "view-list" );
         this.previousElementSibling.classList.remove( "view-grid" );
         this.previousElementSibling.classList.add( "hide-grid" );
+        style[0].setAttribute( "href", "css/list-view.css" );
         // this.style.color = "blue"; -- testing
         // this.previousElementSibling.style.color = "red"; -- testing
       }
