@@ -3,18 +3,22 @@ body {
   color: #47a3da;
 }
 
-.select-grid-view {
-  color: #47a3da;
-}
-
-.unselect-grid-view {
+.hide-grid {
   color: #d0d0d0;
 }
 
-.select-list-view {
+.view-grid {
   color: #47a3da;
 }
 
-.unselect-list-view {
+.hide-list {
   color: #d0d0d0;
+}
+
+.view-list {
+  color: #47a3da;
+}
+
+fa {
+  visibility: hidden;
 }
