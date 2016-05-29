@@ -11,6 +11,21 @@ body {
 MAIN SECTION: SELECTING THE VIEW
 *******************************************************************/
 
+.main-container {
+  width: 72%;
+  margin: 0 auto;
+}
+
+main {
+  padding: 1em;
+  border: .2em solid #47a3da;
+}
+
+.view-option {
+  text-align: right;
+  border-bottom: .2em solid #47a3da;
+}
+
 .hide-grid {
   color: #d0d0d0;
 }
@@ -37,8 +52,14 @@ BEGIN GRID LAYOUT
 ********************************************************************
 *******************************************************************/
 
-.move-me {
-  text-align: left;
+.wine-list-ul li {
+  box-sizing: border-box;
+  width: 33%;
+  text-align: center;
+  margin-top: .5em;
+  padding: 2em;
+  display: inline-block;
+  vertical-align: top;
 }
 
 /*******************************************************************

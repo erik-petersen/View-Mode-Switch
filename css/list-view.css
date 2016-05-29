@@ -11,6 +11,21 @@ body {
 MAIN SECTION: SELECTING THE VIEW
 *******************************************************************/
 
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main {
+  padding: 1em;
+  border: .2em solid #47a3da;
+}
+
+.view-option {
+  text-align: right;
+  border-bottom: .2em solid #47a3da;
+}
+
 .hide-grid {
   color: #d0d0d0;
 }
