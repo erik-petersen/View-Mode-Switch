@@ -30,7 +30,6 @@ for( var index = 0; index < viewIcon.length; index++ ) {
         // this.style.color = "blue"; -- testing
         // this.previousElementSibling.style.color = "red"; -- testing
       }
-
     }
 
     else {
