@@ -7,23 +7,72 @@ body {
   color: #47a3da;
 }
 
+header {
+  width: 72%;
+  margin:  2.5em auto 0;
+  padding-bottom: 2em;
+}
+
+h1 {
+  font-size: 2.125em;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+nav a {
+  box-sizing: border-box;
+  width: 2.5em;
+  height: 2.5em;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 400;
+  background: #fff;
+  border: .25em solid #47a3da;
+  border-radius: 50%;
+  padding:  .3em .5em;
+}
+
+nav a:hover {
+  background: #47a3da;
+}
+
+.tear-drop {
+  padding: 0 .12em;
+}
+
+nav span {
+  color: #47a3da;
+}
+
+nav span:hover {
+  color: #fff;
+}
+
 /*******************************************************************
 MAIN SECTION: SELECTING THE VIEW
 *******************************************************************/
 
 .main-container {
   width: 72%;
-  margin: 0 auto;
+  margin: 3.5em auto;
 }
 
 main {
-  padding: 1.5em;
+  padding: 1.1em 1.5em 1.5em 1.5em;
   border: .2em solid #47a3da;
 }
 
 .view-option {
   text-align: right;
-  padding: .8em 0 1.4em 0;
+  padding: .5em 0 1.1em 0;
   border-bottom: .2em solid #47a3da;
 }
 
