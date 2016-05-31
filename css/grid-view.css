@@ -1,3 +1,200 @@
+/* Erik Petersen Week 2 Weekend Project: View-Mode-Switch */
+
+/*******************************************************************
+MEDIA QUERIES SECTION
+*******************************************************************/
+
+@media only screen and (min-width: 156px) {
+  header {
+    width: 72%;
+    margin:  2.5em auto 0;
+    padding-bottom: 1em;
+  }
+
+  h1 {
+    font-size: 2.125em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  /* NAV SECTION */
+  nav {
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    position: relative;
+  }
+
+  nav a {
+    box-sizing: border-box;
+    width: 2.5em;
+    height: 2.5em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    background: #fff;
+    border: .25em solid #47a3da;
+    border-radius: 50%;
+    padding:  .3em .5em;
+  }
+
+  nav a:hover {
+    background: #47a3da;
+  }
+
+  .tear-drop {
+    padding: 0 .12em;
+  }
+
+  nav span {
+    color: #47a3da;
+  }
+
+  nav span:hover {
+    color: #fff;
+  }
+
+  /* UNORDERED LIST */
+  .wine-list-ul li {
+    box-sizing: border-box;
+    width: 99%;
+    text-align: center;
+    margin-top: .5em;
+    padding: 2em;
+    display: inline-block;
+    vertical-align: top;
+  }
+} /* end media query 156px */
+
+@media only screen and (min-width: 638px) {
+  header {
+    width: 72%;
+    margin:  2.5em auto 0;
+    padding-bottom: 1em;
+  }
+
+  h1 {
+    font-size: 2.125em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  /* NAV SECTION */
+  nav {
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    position: relative;
+  }
+
+  nav a {
+    box-sizing: border-box;
+    width: 2.5em;
+    height: 2.5em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    background: #fff;
+    border: .25em solid #47a3da;
+    border-radius: 50%;
+    padding:  .3em .5em;
+  }
+
+  nav a:hover {
+    background: #47a3da;
+  }
+
+  .tear-drop {
+    padding: 0 .12em;
+  }
+
+  nav span {
+    color: #47a3da;
+  }
+
+  nav span:hover {
+    color: #fff;
+  }
+
+  /* UNORDERED LIST */
+  .wine-list-ul li {
+    box-sizing: border-box;
+    width: 49.5%;
+    text-align: center;
+    margin-top: .5em;
+    padding: 2em;
+    display: inline-block;
+    vertical-align: top;
+  }
+} /* end media query 638px */
+
+@media only screen and (min-width: 940px) {
+  header {
+    width: 72%;
+    margin:  2.5em auto 0;
+    padding-bottom: 2em;
+  }
+
+  h1 {
+    font-size: 2.125em;
+    float: left;
+  }
+
+  /* NAV SECTION */
+  nav {
+    float: right;
+  }
+
+  nav li {
+    display: inline-block;
+    position: relative;
+  }
+
+  nav a {
+    box-sizing: border-box;
+    width: 2.5em;
+    height: 2.5em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    background: #fff;
+    border: .25em solid #47a3da;
+    border-radius: 50%;
+    padding:  .3em .5em;
+  }
+
+  nav a:hover {
+    background: #47a3da;
+  }
+
+  .tear-drop {
+    padding: 0 .12em;
+  }
+
+  nav span {
+    color: #47a3da;
+  }
+
+  nav span:hover {
+    color: #fff;
+  }
+
+  /* UNORDERED LIST */
+  .wine-list-ul li {
+    box-sizing: border-box;
+    width: 33%;
+    text-align: center;
+    margin-top: .5em;
+    padding: 2em;
+    display: inline-block;
+    vertical-align: top;
+  }
+} /* end media query 940px */
+
 /*******************************************************************
 BODY SECTION
 *******************************************************************/
@@ -5,55 +202,6 @@ BODY SECTION
 body {
   font-family: "Lato", sans-serif;
   color: #47a3da;
-}
-
-header {
-  width: 72%;
-  margin:  2.5em auto 0;
-  padding-bottom: 2em;
-}
-
-h1 {
-  font-size: 2.125em;
-  float: left;
-}
-
-nav {
-  float: right;
-}
-
-nav li {
-  display: inline-block;
-  position: relative;
-}
-
-nav a {
-  box-sizing: border-box;
-  width: 2.5em;
-  height: 2.5em;
-  text-decoration: none;
-  font-size: 1.2em;
-  font-weight: 400;
-  background: #fff;
-  border: .25em solid #47a3da;
-  border-radius: 50%;
-  padding:  .3em .5em;
-}
-
-nav a:hover {
-  background: #47a3da;
-}
-
-.tear-drop {
-  padding: 0 .12em;
-}
-
-nav span {
-  color: #47a3da;
-}
-
-nav span:hover {
-  color: #fff;
 }
 
 /*******************************************************************
@@ -108,16 +256,6 @@ BEGIN GRID LAYOUT
 ********************************************************************
 *******************************************************************/
 
-.wine-list-ul li {
-  box-sizing: border-box;
-  width: 33%;
-  text-align: center;
-  margin-top: .5em;
-  padding: 2em;
-  display: inline-block;
-  vertical-align: top;
-}
-
 .title {
   font-size: 2em;
   font-weight: 700;
@@ -150,7 +288,3 @@ li p {
   box-sizing: border-box;
   padding-right: .5em;
 }
-
-/*******************************************************************
-
-*******************************************************************/

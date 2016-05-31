@@ -1,9 +1,11 @@
+/* Erik Petersen Week 2 Weekend Project: View-Mode-Switch */
+
 var viewIcon = document.getElementsByClassName( "view-icon" );
 var style = document.getElementsByClassName( "current-stylesheet" );
 
 //loop through the array of view icons
 for( var index = 0; index < viewIcon.length; index++ ) {
-  // put a click even listener on this element.  If clicked, do one of the next two steps
+  // put a click even listener on this element.  If clicked, do these steps
   viewIcon[index].addEventListener( "click", function() {
     // if the first icon is selected, I want it to be blue and the second to be gray
     if( this.classList.contains( "grid-icon" ) ) {
